@@ -29,6 +29,7 @@ export default function Home() {
             height={74}
           />
         </Link>
+        Quem somos
       </nav>
 
       <main></main>
