@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import { Link } from '../components'
+import { Button } from '../components'
+import { Link, Navbar } from '/components'
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <nav>
+      <Navbar>
         <Link href="/">
           <Image
             src="/wemake-logo.svg"
@@ -23,8 +24,24 @@ export default function Home() {
             height={37}
           />
         </Link>
-        Quem somos
-      </nav>
+
+        <ul className={Navbar.styles.menu}>
+          <li>Quem Somos</li>
+          <li>Filosofia Educacional</li>
+          <li>Makerspace</li>
+          <li>Nova Língua</li>
+          <li>Soluções</li>
+        </ul>
+
+        <Link
+          className={Button.styles.primary}
+          href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Fale Conosco
+        </Link>
+      </Navbar>
 
       <main></main>
 

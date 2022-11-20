@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  height: 76px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: calc(2 * 65px + 30px) 1fr auto;
+  grid-gap: 30px;
+  width: 1140px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 37px;
+}
