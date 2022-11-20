@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <title>We Make - Educação Tecnológica</title>
         <meta
@@ -16,28 +16,20 @@ export default function Home() {
 
       <main className={styles.main}>
         <a
-          href="https://api.whatsapp.com/send?phone=5583996541530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+          href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
             className={styles.logoIcon}
-            src="/wemake-logo-icon.svg"
+            src="/wemake-logo.svg"
             alt="Logomarca"
-            width={124}
-            height={74}
-          />
-          <Image
-            className={styles.logoText}
-            src="/wemake-logo-text.svg"
-            alt="We Make - nós criamos"
-            width={124}
+            width={262}
             height={74}
           />
         </a>
       </main>
-
       <footer className={styles.footer}></footer>
-    </div>
+    </>
   )
 }
