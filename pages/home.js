@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
+import { Link } from '../components'
 
 export default function Home() {
   return (
@@ -17,16 +17,10 @@ export default function Home() {
       <nav>
         <Link href="/">
           <Image
-            src="/wemake-logo-icon.svg"
-            alt="Logomarca"
-            width={124}
-            height={74}
-          />
-          <Image
-            src="/wemake-logo-text.svg"
-            alt="We Make - nós criamos"
-            width={124}
-            height={74}
+            src="/wemake-logo.svg"
+            alt="Logo da We Make - Nós Criamos"
+            width={131}
+            height={37}
           />
         </Link>
         Quem somos
