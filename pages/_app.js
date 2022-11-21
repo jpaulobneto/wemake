@@ -3,9 +3,11 @@ import '../styles/globals.css'
 
 const colors = {
   brand: {
-    900: '#1a365d',
-    800: '#153e75',
-    700: '#2a69ac',
+    500: '#498FE7',
+  },
+  gradient: {
+    darkBlue: '#5c7aff',
+    lightBlue: '#44e5e7',
   },
 }
 
@@ -13,7 +15,7 @@ const theme = extendTheme({ colors })
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider resetCSS theme={theme}>
       <Component {...pageProps} />
     </ChakraProvider>
   )

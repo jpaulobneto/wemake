@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import { Link } from '../components'
+
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -15,19 +17,18 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <a
+        <Link
           href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Image
-            className={styles.logoIcon}
             src="/wemake-logo.svg"
             alt="Logomarca"
             width={262}
             height={74}
           />
-        </a>
+        </Link>
       </main>
       <footer className={styles.footer}></footer>
     </>
