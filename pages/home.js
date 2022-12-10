@@ -50,36 +50,63 @@ export default function Home() {
 
               <VStack w="full" align="flex-start">
                 <Text mb={10}>
-                  <strong>We Make</strong> - nós fazemos - é uma empresa criada
-                  com o objetivo de pensar, estudar, produzir e ensinar
-                  tecnologia a partir da Cosmovisão Cristã.
+                  <Text as="strong" color="brand.100">
+                    We Make
+                  </Text>{' '}
+                  - nós fazemos - é uma empresa criada com o objetivo de{' '}
+                  <Text as="strong">
+                    pensar, estudar, produzir e ensinar tecnologia
+                  </Text>{' '}
+                  a partir da{' '}
+                  <Text as="strong" color="brand.100">
+                    Cosmovisão Cristã
+                  </Text>
+                  .
                 </Text>
 
                 <Text>
-                  Nos diferenciamos pelo compromisso com uma educação escolar
-                  distintamente cristã, que prima pela Verdade, Beleza e Bondade
-                  reveladas através da Bíblia e da criação.
+                  Nos diferenciamos pelo compromisso com uma{' '}
+                  <Text as="strong" color="brand.100">
+                    educação escolar distintamente cristã
+                  </Text>
+                  , que prima pela Verdade, Beleza e Bondade reveladas através
+                  da Bíblia e da criação.
                 </Text>
               </VStack>
             </HStack>
 
             <Text mb={10}>
-              Assim, nós entendemos a tecnologia não como um fim em si mesma,
-              mas como parte do Mandato Cultural, cujo objetivo é desenvolver os
-              potenciais da criação e aliviar os efeitos da Queda.
+              Assim, nós entendemos a{' '}
+              <Text as="strong" color="brand.100">
+                tecnologia
+              </Text>{' '}
+              não como um fim em si mesma, mas como parte do Mandato Cultural,
+              cujo objetivo é{' '}
+              <Text as="strong">
+                desenvolver os potenciais da criação e aliviar os efeitos da
+                Queda
+              </Text>
+              .
             </Text>
 
             <Text mb={10}>
-              E visualizamos a natureza do aluno e o seu potencial, a função do
-              professor, a metodologia empregada e a construção do currículo à
-              luz da metanarrativa Bíblica:
+              E visualizamos a <Text as="strong">natureza do aluno</Text> e o
+              seu <Text as="strong">potencial</Text>, a{' '}
+              <Text as="strong">função do professor</Text>, a{' '}
+              <Text as="strong">metodologia empregada</Text> e a{' '}
+              <Text as="strong">construção do currículo</Text> à luz da{' '}
+              <Text as="strong" color="brand.100">
+                metanarrativa Bíblica
+              </Text>
+              :
             </Text>
 
             <Text mb={20}>
-              (1) Deus (em Cristo e pelo Espírito) cria o mundo; (2) o pecado
-              debilita, deturpa e arruína a criação; (3) Deus age para curar,
-              endireitar e restaurar; (4) Deus finalmente reconcilia todo o
-              cosmo consigo mesmo.
+              <Text as="strong">(1)</Text> Deus (em Cristo e pelo Espírito) cria
+              o mundo; <Text as="strong">(2)</Text> o pecado debilita, deturpa e
+              arruína a criação; <Text as="strong">(3)</Text> Deus age para
+              curar, endireitar e restaurar; <Text as="strong">(4)</Text> Deus
+              finalmente reconcilia todo o cosmo consigo mesmo.
             </Text>
 
             <Grid templateColumns="repeat(3, 1fr)" gap={10}>
