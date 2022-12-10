@@ -1,17 +1,10 @@
-import { ChakraProvider, extendTheme } from '@chakra-ui/react'
-import '../styles/globals.css'
-
-const colors = {
-  brand: {
-    500: '#498FE7',
-  },
-  gradient: {
-    darkBlue: '#5c7aff',
-    lightBlue: '#44e5e7',
-  },
-}
-
-const theme = extendTheme({ colors })
+import { ChakraProvider } from '@chakra-ui/react'
+import '@fontsource/manrope/600.css'
+import '@fontsource/raleway/300.css'
+import '@fontsource/raleway/700.css'
+import '@fontsource/sora/400.css'
+import '@fontsource/sora/700.css'
+import theme from './theme'
 
 function MyApp({ Component, pageProps }) {
   return (
