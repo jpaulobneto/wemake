@@ -20,6 +20,15 @@ export default extendTheme({
         textTransform: 'uppercase',
       },
       variants: {
+        h1: {
+          fontSize: '7xl',
+          letterSpacing: '0.225em',
+        },
+        h2: {
+          fontWeight: 'light',
+          fontSize: '4xl',
+          letterSpacing: '0.1em',
+        },
         h1Light: {
           color: 'white',
           fontSize: '7xl',
@@ -31,6 +40,12 @@ export default extendTheme({
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
+      },
+    },
+    Link: {
+      baseStyle: {
+        color: 'brand.500',
+        fontWeight: 'bold',
       },
     },
     Text: {

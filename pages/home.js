@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Hero, Navbar } from '../components'
+import { AboutMe, Hero, Navbar } from '../components'
 
 export default function Home() {
   return (
@@ -181,6 +181,8 @@ export default function Home() {
             </Grid>
           </Container>
         </Box>
+
+        <AboutMe />
       </main>
 
       <footer></footer>
