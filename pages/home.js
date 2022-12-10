@@ -1,6 +1,15 @@
+import {
+  Box,
+  Container,
+  Grid,
+  GridItem,
+  Heading,
+  HStack,
+  Text,
+  VStack,
+} from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
-
 import { Hero, Navbar } from '../components'
 
 export default function Home() {
@@ -26,7 +35,126 @@ export default function Home() {
         />
       </Hero>
 
-      <main></main>
+      <main>
+        <Box as="section" bg="brand.500" color="white">
+          <Container maxW="container.xl" py={40}>
+            <HStack mb={100} justify="space-between" align="stretch">
+              <VStack w="full" align="flex-start">
+                <Heading as="h1" variant="h1Light" mb="5">
+                  Quem Somos
+                </Heading>
+                <Heading as="h2" variant="h2Light">
+                  Enquanto Empresa
+                </Heading>
+              </VStack>
+
+              <VStack w="full" align="flex-start">
+                <Text mb={10}>
+                  <strong>We Make</strong> - nós fazemos - é uma empresa criada
+                  com o objetivo de pensar, estudar, produzir e ensinar
+                  tecnologia a partir da Cosmovisão Cristã.
+                </Text>
+
+                <Text>
+                  Nos diferenciamos pelo compromisso com uma educação escolar
+                  distintamente cristã, que prima pela Verdade, Beleza e Bondade
+                  reveladas através da Bíblia e da criação.
+                </Text>
+              </VStack>
+            </HStack>
+
+            <Text mb={10}>
+              Assim, nós entendemos a tecnologia não como um fim em si mesma,
+              mas como parte do Mandato Cultural, cujo objetivo é desenvolver os
+              potenciais da criação e aliviar os efeitos da Queda.
+            </Text>
+
+            <Text mb={10}>
+              E visualizamos a natureza do aluno e o seu potencial, a função do
+              professor, a metodologia empregada e a construção do currículo à
+              luz da metanarrativa Bíblica:
+            </Text>
+
+            <Text mb={20}>
+              (1) Deus (em Cristo e pelo Espírito) cria o mundo; (2) o pecado
+              debilita, deturpa e arruína a criação; (3) Deus age para curar,
+              endireitar e restaurar; (4) Deus finalmente reconcilia todo o
+              cosmo consigo mesmo.
+            </Text>
+
+            <Grid templateColumns="repeat(3, 1fr)" gap={10}>
+              <GridItem bg="white" rounded="xl" color="black" py={10} px={7}>
+                <Text
+                  as="h3"
+                  fontSize="32px"
+                  fontWeight="bold"
+                  mb={8}
+                  lineHeight="160%"
+                >
+                  Visão
+                </Text>
+                <Text
+                  mb={10}
+                  fontSize="18px"
+                  lineHeight="160%"
+                  color="gray.700"
+                >
+                  Nossa visão é ser uma empresa de referência em Educação
+                  Tecnológica fundamentada na Cosmovisão Cristã.
+                </Text>
+              </GridItem>
+
+              <GridItem bg="white" rounded="xl" color="black" py={10} px={7}>
+                <Text
+                  as="h3"
+                  fontSize="32px"
+                  fontWeight="bold"
+                  mb={8}
+                  lineHeight="160%"
+                >
+                  Missão
+                </Text>
+                <Text
+                  mb={10}
+                  fontSize="18px"
+                  lineHeight="160%"
+                  color="gray.700"
+                >
+                  Nossa missão é promover uma Educação Tecnológica de
+                  excelência, pensando, estudando, produzindo e ensinando
+                  tecnologia com liberdade e responsabilidade em resposta a
+                  Deus.
+                </Text>
+              </GridItem>
+
+              <GridItem bg="white" rounded="xl" color="black" py={10} px={7}>
+                <Text
+                  as="h3"
+                  fontSize="32px"
+                  fontWeight="bold"
+                  mb={8}
+                  lineHeight="160%"
+                >
+                  Valores
+                </Text>
+                <Text
+                  mb={10}
+                  fontSize="18px"
+                  lineHeight="160%"
+                  color="gray.700"
+                >
+                  - Cosmovisão Cristã;
+                  <br />
+                  - Mordomia;
+                  <br />
+                  - Inovação criacional;
+                  <br />- Transformação integral.
+                </Text>
+              </GridItem>
+            </Grid>
+          </Container>
+        </Box>
+      </main>
 
       <footer></footer>
     </>
