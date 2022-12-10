@@ -19,10 +19,10 @@ export default function AboutMe() {
         <Grid templateColumns="repeat(2, 1fr)" alignItems="center" gap={10}>
           <GridItem>
             <Heading as="h1" variant="h1" mb="5">
-              Quem Somos
+              Quem sou
             </Heading>
             <Heading as="h2" variant="h2" mb={100}>
-              Enquanto Empresa
+              Enquanto vocação
             </Heading>
 
             <UnorderedList>
