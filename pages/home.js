@@ -10,7 +10,8 @@ import {
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { AboutMe, Hero, Navbar } from '../components'
+import { Hero, Navbar } from '../components'
+import { AboutMe } from '../slices'
 
 export default function Home() {
   return (
