@@ -11,7 +11,7 @@ import {
 import Head from 'next/head'
 import Image from 'next/image'
 import { Hero, Navbar } from '../components'
-import { AboutMe, Makerspace, Philosophy } from '../slices'
+import { AboutMe, Makerspace, NewLanguage, Philosophy } from '../slices'
 
 export default function Home() {
   return (
@@ -188,6 +188,8 @@ export default function Home() {
         <Philosophy />
 
         <Makerspace />
+
+        <NewLanguage />
       </main>
 
       <footer></footer>
