@@ -11,7 +11,13 @@ import {
 import Head from 'next/head'
 import Image from 'next/image'
 import { Hero, Navbar } from '../components'
-import { AboutMe, Makerspace, NewLanguage, Philosophy } from '../slices'
+import {
+  AboutMe,
+  Makerspace,
+  NewLanguage,
+  OurSolutions,
+  Philosophy,
+} from '../slices'
 
 export default function Home() {
   return (
@@ -190,6 +196,8 @@ export default function Home() {
         <Makerspace />
 
         <NewLanguage />
+
+        <OurSolutions />
       </main>
 
       <footer></footer>

@@ -14,6 +14,8 @@ export default extendTheme({
       lightBlue: '#44e5e7',
       darkPurple: '#6366F1',
       lightPurple: '#D946EF',
+      darkGreen: ' #44E5E7',
+      lightGreen: '#73FBD3',
     },
   },
   components: {
