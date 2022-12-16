@@ -106,7 +106,7 @@ export default function OurSolutions() {
               rounded="3xl"
               bg="url(/our-solutions-bg-2.jpg) center center no-repeat"
               bgSize="110%"
-              px={16}
+              px={28}
               py={16}
               align="center"
               color="white"
@@ -124,21 +124,35 @@ export default function OurSolutions() {
                 </GridItem>
                 <GridItem>
                   <Text>
-                    As nossas aulas compreendem as áreas de educação
-                    tecnológica, robótica educacional, eletrônica, cidadania
-                    digital, programação e codificação e engenharia, likando-as
-                    às demais ciências liberais, da natureza e sociais -
-                    interdisciplinaridade.{' '}
+                    As nossas aulas compreendem as áreas de{' '}
+                    <Text as="strong" color="brand.100">
+                      educação tecnológica, robótica educacional, eletrônica,
+                      cidadania digital, programação e codificação e engenharia
+                    </Text>
+                    , likando-as às demais ciências liberais, da natureza e
+                    sociais - <Text as="strong">interdisciplinaridade</Text>.
                   </Text>
                 </GridItem>
                 <GridItem>
                   <Text>
                     Teoria e Prática não se separam em nossas aulas. Nas
-                    Escrituras, sabedoria é o termo bíblico que une razão
-                    (teoria), afeto (motivação) e ação (prática). Pensando
-                    nisto, as aulas são pensadas e construídas de forma que
-                    promovam o deslumbramento/maravilhamento dos alunos e o
-                    engajamento, atingindo a mente, o coração e as mãos.
+                    Escrituras, sabedoria é o termo bíblico que une{' '}
+                    <Text as="strong" color="brand.100">
+                      razão (teoria)
+                    </Text>
+                    ,{' '}
+                    <Text as="strong" color="brand.100">
+                      afeto (motivação)
+                    </Text>{' '}
+                    e{' '}
+                    <Text as="strong" color="brand.100">
+                      ação (prática)
+                    </Text>
+                    . Pensando nisto, as aulas são pensadas e construídas de
+                    forma que promovam o{' '}
+                    <Text as="strong">deslumbramento/maravilhamento</Text> dos
+                    alunos e o engajamento, atingindo a mente, o coração e as
+                    mãos.
                   </Text>
                 </GridItem>
 
