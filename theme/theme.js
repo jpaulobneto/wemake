@@ -40,6 +40,13 @@ export default extendTheme({
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
+        h1Highlighted: {
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '7xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
       },
     },
     Link: {

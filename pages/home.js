@@ -6,7 +6,7 @@ import {
   Heading,
   HStack,
   Text,
-  VStack
+  VStack,
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
