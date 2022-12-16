@@ -39,7 +39,11 @@ function Navbar() {
           </Grid>
         </GridItem>
         <GridItem width={40} alignSelf="center" textAlign="center">
-          <Link href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21">
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+          >
             <Button
               color="white"
               bgGradient="linear(to-r, gradient.darkBlue, gradient.lightBlue)"
