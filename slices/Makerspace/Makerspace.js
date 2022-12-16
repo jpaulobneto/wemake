@@ -18,7 +18,7 @@ export default function Makerspace() {
     <Box as="section">
       <Flex
         bg={'url(/makerspace-bg.jpg) center center no-repeat'}
-        bgSize="cover"
+        bgSize="110%"
         height={{ lg: '870px' }}
         justify="center"
         align={'center'}
