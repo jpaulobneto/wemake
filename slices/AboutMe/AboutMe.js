@@ -160,7 +160,10 @@ export default function AboutMe() {
             </Text>
 
             <Text fontSize="medium" mb={10}>
-              Estou no Instagram em{' '}
+              Estou no{' '}
+              <Text as="strong" fontSize="medium">
+                Instagram
+              </Text>{' '}
               <Link
                 href="https://www.instagram.com/denisjulio/"
                 target="_blank"
@@ -168,7 +171,11 @@ export default function AboutMe() {
               >
                 @denisjulio
               </Link>
-              . Você também pode mandar um e-mail para{' '}
+              . Você também pode mandar um{' '}
+              <Text as="strong" fontSize="medium">
+                e-mail
+              </Text>{' '}
+              para{' '}
               <Link href="mailto:contato@wemake.tec.br">
                 contato@wemake.tec.br
               </Link>
