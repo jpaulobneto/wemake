@@ -31,8 +31,13 @@ export default function Philosophy() {
       </Flex>
 
       <Container maxW={'container.xl'} py={40}>
-        <Grid columnGap={10} rowGap={10} templateColumns={'repeat(2, 1fr)'}>
-          <GridItem>
+        <Grid
+          columnGap={10}
+          rowGap={10}
+          templateColumns={'repeat(2, 1fr)'}
+          templateRows={'repeat(9, auto-fit)'}
+        >
+          <GridItem rowSpan={3}>
             <Image
               src={'/quem-queremos-educar.png'}
               width={539}
@@ -54,12 +59,15 @@ export default function Philosophy() {
                 educar?
               </Highlight>
             </Heading>
-
-            <Text mt={10}>
+          </GridItem>
+          <GridItem>
+            <Text>
               &quot;Por trás de roda pedagogia, há uma antropologia
               filosófica&quot; (James K. Smith).
             </Text>
-            <Text mt={10}>
+          </GridItem>
+          <GridItem>
+            <Text>
               Os alunos não são um acidente cósmico ou evolução do macaco, mas
               foram intencionalmente criados à{' '}
               <Text as={'strong'}> imagem e semelhança de Deus</Text>, que é
@@ -94,7 +102,7 @@ export default function Philosophy() {
             </Text>
           </GridItem>
 
-          <GridItem>
+          <GridItem mt={16}>
             <Heading as={'h2'} variant={'h1Highlighted'}>
               Para qual{' '}
               <Highlight
@@ -109,16 +117,26 @@ export default function Philosophy() {
               </Highlight>{' '}
               educar?
             </Heading>
-
-            <Text mt={10}>
+          </GridItem>
+          <GridItem rowSpan={3} mt={16}>
+            <Image
+              src={'/pra-qual-realidade.png'}
+              width={539}
+              height={682}
+              alt="criança interagindo com um peça mecânica que sustenta um globo"
+            />
+          </GridItem>
+          <GridItem>
+            <Text>
               O mundo foi feito para a glória de Deus em Jesus Cristo, com o
               objetivo de criar o contexto onde o amor de Deus pudesse ser
               derramado e a sua glória desfrutada -
               <Text as="strong">&quot;Teatro da Glória de Deus&quot;</Text>{' '}
               (João Calvino).
             </Text>
-
-            <Text mt={10}>
+          </GridItem>
+          <GridItem>
+            <Text>
               Nós entendemos o mundo como inteligível e relacional, e devemos
               conhecê-lo pelo conhecimento de Deus, com sabedoria e
               responsabilidade, por meio de uma{' '}
@@ -131,14 +149,6 @@ export default function Philosophy() {
               </Text>{' '}
               (educando para a eternidade).
             </Text>
-          </GridItem>
-          <GridItem>
-            <Image
-              src={'/quem-queremos-educar.png'}
-              width={539}
-              height={682}
-              alt="crianças em uma sala de aula levantando as mãos para interagir"
-            />
           </GridItem>
           <GridItem colSpan={2}>
             <Text>
