@@ -12,6 +12,8 @@ export default extendTheme({
     gradient: {
       darkBlue: '#5c7aff',
       lightBlue: '#44e5e7',
+      darkPurple: '#6366F1',
+      lightPurple: '#D946EF',
     },
   },
   components: {
@@ -41,6 +43,14 @@ export default extendTheme({
           letterSpacing: '0.1em',
         },
         h1Highlighted: {
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '7xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
+        h1HighlightedLight: {
+          color: 'white',
           fontFamily: `Sora, ${theme.fonts.heading}`,
           fontSize: '7xl',
           fontWeight: 'normal',
