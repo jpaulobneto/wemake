@@ -11,7 +11,7 @@ import {
 import Head from 'next/head'
 import Image from 'next/image'
 import { Hero, Navbar } from '../components'
-import { AboutMe, Philosophy } from '../slices'
+import { AboutMe, Makerspace, Philosophy } from '../slices'
 
 export default function Home() {
   return (
@@ -186,6 +186,8 @@ export default function Home() {
         <AboutMe />
 
         <Philosophy />
+
+        <Makerspace />
       </main>
 
       <footer></footer>
