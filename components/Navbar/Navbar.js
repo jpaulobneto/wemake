@@ -1,26 +1,26 @@
 import { Button, Container, Grid, GridItem, Image } from '@chakra-ui/react'
 import { Link } from '../Link'
 
-function Navbar() {
+export default function Navbar() {
   return (
     <Container maxWidth="container.xl">
-      <Grid templateColumns="auto 1fr auto" gap={8} height={20}>
-        <GridItem width={40} alignSelf="center">
+      <Grid
+        templateColumns={{ lg: 'auto 1fr auto', base: 'auto auto' }}
+        gap={8}
+        height={20}
+      >
+        <GridItem width={40} alignSelf="center" justifySelf="start">
           <Link href="/">
             <Image
               src="/wemake-logo.png"
-              alt="Logomarca"
+              alt="We Make - nós criamos"
               width={135}
               height={45}
             />
           </Link>
         </GridItem>
-        <GridItem alignSelf="center">
-          <Grid
-            templateColumns="repeat(5, auto)"
-            gap={9}
-            display={['none', 'none', 'none', 'grid']}
-          >
+        <GridItem alignSelf="center" display={{ base: 'none', lg: 'grid' }}>
+          <Grid templateColumns="repeat(5, auto)" gap={9}>
             <GridItem>
               <Link href="/home">Quem Somos</Link>
             </GridItem>
@@ -38,7 +38,12 @@ function Navbar() {
             </GridItem>
           </Grid>
         </GridItem>
-        <GridItem width={40} alignSelf="center" textAlign="center">
+        <GridItem
+          width={40}
+          alignSelf="center"
+          justifySelf="center"
+          align="right"
+        >
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -63,5 +68,3 @@ function Navbar() {
     </Container>
   )
 }
-
-export default Navbar

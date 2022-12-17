@@ -151,7 +151,7 @@ export default function AboutMe() {
                 src={'/denis.jpg'}
                 width={510}
                 height={569}
-                alt="Dênis Júlio"
+                alt="Dênis Júlio - CEO e fundador da We Make"
               />
             </Box>
 
