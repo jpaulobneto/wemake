@@ -185,6 +185,44 @@ export default function OurSolutions() {
           </VStack>
         </Container>
       </Box>
+
+      <Box bg="black" color="white">
+        <Container maxW="container.xl" px={20} py={28} align="center">
+          <Heading as="h2" variant="h1Highlighted" mb="32">
+            <Highlight
+              query="nossas soluções"
+              styles={{ fontWeight: 'bold', color: 'inherit' }}
+            >
+              Deseja as nossas soluções para a sua Escola?
+            </Highlight>
+          </Heading>
+
+          <Link
+            display="block"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+            mb="40"
+          >
+            <Button
+              color="white"
+              rounded="full"
+              px={14}
+              py={8}
+              bgGradient="linear(to-r, gradient.darkBlue, gradient.lightBlue)"
+              fontWeight="bold"
+              fontFamily="Sora"
+              fontSize="2xl"
+              _hover={{
+                bgGradient:
+                  'linear(to-l, gradient.darkBlue, gradient.lightBlue)',
+              }}
+            >
+              Fale conosco
+            </Button>
+          </Link>
+        </Container>
+      </Box>
     </Box>
   )
 }
