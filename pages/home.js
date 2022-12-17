@@ -10,7 +10,7 @@ import {
 } from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Hero, Navbar } from '../components'
+import { Footer, Hero, Navbar } from '../components'
 import {
   AboutMe,
   Makerspace,
@@ -200,7 +200,7 @@ export default function Home() {
         <OurSolutions />
       </main>
 
-      <footer></footer>
+      <Footer />
     </>
   )
 }
