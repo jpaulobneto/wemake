@@ -24,7 +24,7 @@ export default function Home() {
         >
           <Image
             src="/wemake-logo.svg"
-            alt="Logomarca"
+            alt="Entre em contato com a We Make - nós fazemos e saiba mais"
             width={262}
             height={74}
           />
