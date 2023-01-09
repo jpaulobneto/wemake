@@ -33,12 +33,23 @@ export default extendTheme({
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
-        h1Light: {
+        h1LightBase: {
+          color: 'white',
+          fontSize: '4xl',
+          letterSpacing: '0.225em',
+        },
+        h1LightMd: {
           color: 'white',
           fontSize: '7xl',
           letterSpacing: '0.225em',
         },
-        h2Light: {
+        h2LightBase: {
+          color: 'white',
+          fontWeight: 'light',
+          fontSize: 'xl',
+          letterSpacing: '0.1em',
+        },
+        h2LightMd: {
           color: 'white',
           fontWeight: 'light',
           fontSize: '4xl',
