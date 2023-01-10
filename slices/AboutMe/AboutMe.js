@@ -15,13 +15,25 @@ import { Link } from '/components'
 export default function AboutMe() {
   return (
     <Box as="section">
-      <Container maxW="container.xl" py={40}>
-        <Grid templateColumns="repeat(2, 1fr)" alignItems="center" gap={10}>
+      <Container maxW="container.xl" py={{ base: 10, md: 20, lg: 40 }}>
+        <Grid
+          templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}
+          alignItems="center"
+          gap={10}
+        >
           <GridItem>
-            <Heading as="h1" variant="h1" mb="5">
+            <Heading
+              as="h1"
+              variant={{ base: 'h1Base', md: 'h1Md' }}
+              mb={{ base: 1, md: 5 }}
+            >
               Quem sou
             </Heading>
-            <Heading as="h2" variant="h2" mb={100}>
+            <Heading
+              as="h2"
+              variant={{ base: 'h2Base', md: 'h2Md' }}
+              mb={{ base: 10, md: 20, lg: 100 }}
+            >
               Enquanto vocação
             </Heading>
 

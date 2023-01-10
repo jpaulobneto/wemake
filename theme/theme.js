@@ -24,11 +24,20 @@ export default extendTheme({
         textTransform: 'uppercase',
       },
       variants: {
-        h1: {
+        h1Base: {
+          fontSize: '4xl',
+          letterSpacing: '0.225em',
+        },
+        h1Md: {
           fontSize: '7xl',
           letterSpacing: '0.225em',
         },
-        h2: {
+        h2Base: {
+          fontWeight: 'light',
+          fontSize: 'xl',
+          letterSpacing: '0.1em',
+        },
+        h2Md: {
           fontWeight: 'light',
           fontSize: '4xl',
           letterSpacing: '0.1em',
