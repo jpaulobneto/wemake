@@ -221,7 +221,7 @@ export default function Home() {
 
         <NewLanguage />
 
-        {/*   <OurSolutions /> */}
+        <OurSolutions />
       </main>
 
       {/* <Footer /> */}

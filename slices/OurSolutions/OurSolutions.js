@@ -15,22 +15,28 @@ export default function OurSolutions() {
   return (
     <Box as="section">
       <Box bg="brand.500">
-        <Container maxW="container.xl" py={28}>
+        <Container maxW="container.xl" py={{ base: 10, md: 20, lg: 40 }}>
           <VStack align="stretch" spacing={16}>
-            <Heading as="h1" variant="h1Light" width="50%" mb={6}>
+            <Heading
+              as="h1"
+              variant={{ base: 'h1LightBase', lg: 'h1LightMd' }}
+              width={{ base: '100%', lg: '50%' }}
+              mb={6}
+              textAlign={{ base: 'center', lg: 'left' }}
+            >
               Nossas Soluções
             </Heading>
             <Box
               rounded="3xl"
               bg="url(/our-solutions-bg.jpg) center center no-repeat"
-              bgSize="110%"
+              bgSize={{ base: '210%', lg: '110%' }}
               px={16}
               py={16}
               align="center"
               color="white"
             >
-              <Grid templateColumns="1fr 1fr" gap={10}>
-                <GridItem colSpan={2}>
+              <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={10}>
+                <GridItem colSpan={{ base: 0, lg: 2 }}>
                   <Heading as="h2" variant="h1Highlighted">
                     <Highlight
                       query="consultoria"
@@ -40,7 +46,7 @@ export default function OurSolutions() {
                     </Highlight>
                   </Heading>
                 </GridItem>
-                <GridItem colSpan={2}>
+                <GridItem colSpan={{ base: 0, lg: 2 }}>
                   <Text>
                     Entender o contexto educacional, identificar a problemática
                     de forma imparcial (olhar externo) e profissional, pensar em
@@ -105,7 +111,7 @@ export default function OurSolutions() {
             <Box
               rounded="3xl"
               bg="url(/our-solutions-bg-2.jpg) center center no-repeat"
-              bgSize="110%"
+              bgSize="150%"
               px={28}
               py={16}
               align="center"
@@ -187,7 +193,12 @@ export default function OurSolutions() {
       </Box>
 
       <Box bg="black" color="white">
-        <Container maxW="container.xl" px={20} py={28} align="center">
+        <Container
+          maxW="container.xl"
+          px={20}
+          py={{ base: 10, md: 20, lg: 40 }}
+          align="center"
+        >
           <Heading as="h2" variant="h1Highlighted" mb="32">
             <Highlight
               query="nossas soluções"
