@@ -207,14 +207,14 @@ export default function OurSolutions() {
       <Box bg="black" color="white">
         <Container
           maxW="container.xl"
-          px={20}
+          px={{ base: 8, md: 20 }}
           py={{ base: 10, md: 20, lg: 40 }}
           align="center"
         >
           <Heading
             as="h2"
             variant={{ base: 'h1HighlightedBase', lg: 'h1HighlightedMd' }}
-            mb="32"
+            mb={{ base: 12, md: 24, lg: 36 }}
           >
             <Highlight
               query="nossas soluções"
@@ -229,7 +229,7 @@ export default function OurSolutions() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
-            mb="40"
+            mb={{ base: 12, md: 24, lg: 36 }}
           >
             <Button
               color="white"
