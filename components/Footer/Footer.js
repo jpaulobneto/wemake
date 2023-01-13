@@ -19,7 +19,7 @@ export default function Footer() {
           />
 
           <VStack spacing="5">
-            <Text>We Make - Educação Tecnológica</Text>
+            <Text textAlign="center">We Make - Educação Tecnológica</Text>
 
             <List spacing="1">
               <ListItem>
