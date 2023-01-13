@@ -39,7 +39,7 @@ export default function AboutMe() {
 
             <UnorderedList>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Bacharel em Teologia"
                     styles={{
@@ -53,7 +53,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Educação Clássica Cristã"
                     styles={{
@@ -68,7 +68,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Engenharia Mecânica"
                     styles={{
@@ -82,7 +82,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Laboratório de Fabricação Digital"
                     styles={{
@@ -96,7 +96,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Robótica e Educação Tecnológica"
                     styles={{
@@ -111,7 +111,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Cosmovisão Cristã"
                     styles={{
@@ -127,7 +127,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Coordenador de ensino bíblico"
                     styles={{
@@ -141,7 +141,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Editor de material"
                     styles={{
