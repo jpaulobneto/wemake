@@ -64,7 +64,14 @@ export default extendTheme({
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
-        h1Highlighted: {
+        h1HighlightedBase: {
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '3xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
+        h1HighlightedMd: {
           fontFamily: `Sora, ${theme.fonts.heading}`,
           fontSize: '7xl',
           fontWeight: 'normal',
@@ -90,7 +97,7 @@ export default extendTheme({
     Text: {
       baseStyle: {
         lineHeight: '34px',
-        fontSize: 'xl',
+        fontSize: 'lg',
       },
     },
   },

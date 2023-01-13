@@ -215,7 +215,7 @@ export default function Home() {
 
         <AboutMe />
 
-        {/* <Philosophy /> */}
+        <Philosophy />
 
         {/*   <Makerspace /> */}
 
