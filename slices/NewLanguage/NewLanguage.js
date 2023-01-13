@@ -19,8 +19,16 @@ export default function NewLanguage() {
         align={'center'}
       />
 
-      <Container maxW={'container.xl'} py={28} align="center">
-        <Heading as="h1" variant="h1Highlighted" mb={14}>
+      <Container
+        maxW={'container.xl'}
+        py={{ base: 10, md: 20, lg: 40 }}
+        align="center"
+      >
+        <Heading
+          as="h1"
+          variant={{ base: 'h1HighlightedBase', md: 'h1HighlightedMd' }}
+          mb={{ base: 8, md: 14 }}
+        >
           <Highlight
             query={'nova língua'}
             styles={{

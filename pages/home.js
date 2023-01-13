@@ -219,7 +219,7 @@ export default function Home() {
 
         <Makerspace />
 
-        {/*   <NewLanguage /> */}
+        <NewLanguage />
 
         {/*   <OurSolutions /> */}
       </main>
