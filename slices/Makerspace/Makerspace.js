@@ -13,27 +13,38 @@ import {
 } from '@chakra-ui/react'
 import Image from 'next/image'
 
+const MAKERSPACE_BG_HEIGHT = 870
+
 export default function Makerspace() {
   return (
     <Box as="section">
       <Flex
         bg={'url(/makerspace-bg.jpg) center center no-repeat'}
-        bgSize="110%"
-        height={{ lg: '870px' }}
+        bgSize={{ base: 'cover', md: '110%' }}
+        height={{
+          base: `${MAKERSPACE_BG_HEIGHT * 0.45}px`,
+          lg: `${MAKERSPACE_BG_HEIGHT * 0.6}px`,
+          xl: `${MAKERSPACE_BG_HEIGHT}px`,
+        }}
         justify="center"
         align={'center'}
       >
         <Box
           bgGradient="linear(to-r, gradient.darkBlue, gradient.lightBlue)"
           width="100%"
-          marginLeft={'30%'}
-          px={16}
-          py={8}
+          marginLeft={{ base: 0, md: '30%' }}
+          px={{ base: 4, md: 16 }}
+          py={{ base: 4, md: 8 }}
+          textAlign={{ base: 'center', md: 'left' }}
         >
-          <Heading as="h1" variant="h1Light">
+          <Heading as="h1" variant={{ base: 'h1LightBase', lg: 'h1LightMd' }}>
             Makerspace
           </Heading>
-          <Heading as="h2" variant="h2Light" mt={8}>
+          <Heading
+            as="h2"
+            variant={{ base: 'h2LightBase', lg: 'h2LightMd' }}
+            mt={8}
+          >
             Laboratório
             <br /> de Fabricação
           </Heading>
@@ -41,8 +52,15 @@ export default function Makerspace() {
       </Flex>
 
       <Box bg="brand.500" textAlign={'center'}>
-        <Container maxW={'container.xl'} py={40}>
-          <Heading as="h3" variant="h1HighlightedLight" mb={5}>
+        <Container maxW={'container.xl'} py={{ base: 10, md: 20, lg: 40 }}>
+          <Heading
+            as="h3"
+            variant={{
+              base: 'h1HighlightedLightBase',
+              md: 'h1HighlightedLightMd',
+            }}
+            mb={4}
+          >
             <Highlight
               query={'makerspace'}
               styles={{ fontWeight: 'bold', color: 'inherit' }}
@@ -50,7 +68,7 @@ export default function Makerspace() {
               O que é makerspace?
             </Highlight>
           </Heading>
-          <Text color={'white'} mb={36}>
+          <Text color={'white'} mb={{ base: 16, lg: 24 }}>
             O <Text as="strong">makerspace</Text> um espaço de criatividade,
             aprendizado e inovação, criado com o objetivo de inspirar e
             viabilizar ideias para serem transformadas em objetos reais, por
@@ -61,7 +79,14 @@ export default function Makerspace() {
             </Text>
             .
           </Text>
-          <Heading as="h3" variant="h1HighlightedLight" mb={5}>
+          <Heading
+            as="h3"
+            variant={{
+              base: 'h1HighlightedLightBase',
+              md: 'h1HighlightedLightMd',
+            }}
+            mb={4}
+          >
             <Highlight
               query={'como'}
               styles={{ fontWeight: 'bold', color: 'inherit' }}
@@ -69,7 +94,7 @@ export default function Makerspace() {
               Como?
             </Highlight>
           </Heading>
-          <Text color={'white'} mb={5}>
+          <Text color={'white'} mb={4}>
             Permitindo o{' '}
             <Text as="strong">
               compartilhamento de ideias, o acesso a novos conhecimentos, e a
@@ -94,11 +119,11 @@ export default function Makerspace() {
         bg={'url(/makerspace-bg-2.jpg) center center no-repeat'}
         bgSize="cover"
       >
-        <Container maxW={'container.xl'} py={28}>
+        <Container maxW={'container.xl'} py={{ base: 10, md: 20, lg: 40 }}>
           <Grid
-            templateColumns={'auto 1fr'}
+            templateColumns={{ base: '1fr', md: '25% 1fr' }}
             columnGap={10}
-            rowGap={28}
+            rowGap={{ base: 8, md: 28 }}
             color="white"
           >
             <GridItem>
@@ -240,7 +265,14 @@ export default function Makerspace() {
       <Box bg="brand.500" align="center">
         <Container maxW="container.xl" py={36}>
           <VStack spacing={8}>
-            <Heading as="h3" variant="h1HighlightedLight" mb={5}>
+            <Heading
+              as="h3"
+              variant={{
+                base: 'h1HighlightedLightBase',
+                md: 'h1HighlightedLightMd',
+              }}
+              mb={5}
+            >
               <Highlight
                 query={'implantar'}
                 styles={{ fontWeight: 'bold', color: 'inherit' }}

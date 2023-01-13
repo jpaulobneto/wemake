@@ -217,7 +217,7 @@ export default function Home() {
 
         <Philosophy />
 
-        {/*   <Makerspace /> */}
+        <Makerspace />
 
         {/*   <NewLanguage /> */}
 

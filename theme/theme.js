@@ -78,7 +78,15 @@ export default extendTheme({
           lineHeight: 'short',
           textTransform: 'unset',
         },
-        h1HighlightedLight: {
+        h1HighlightedLightBase: {
+          color: 'white',
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '4xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
+        h1HighlightedLightMd: {
           color: 'white',
           fontFamily: `Sora, ${theme.fonts.heading}`,
           fontSize: '7xl',
