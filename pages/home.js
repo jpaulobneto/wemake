@@ -4,7 +4,6 @@ import {
   Grid,
   GridItem,
   Heading,
-  Stack,
   Text,
   VStack,
 } from '@chakra-ui/react'
@@ -224,7 +223,7 @@ export default function Home() {
         <OurSolutions />
       </main>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
