@@ -29,15 +29,21 @@ export default function OurSolutions() {
             <Box
               rounded="3xl"
               bg="url(/our-solutions-bg.jpg) center center no-repeat"
-              bgSize={{ base: '210%', lg: '110%' }}
-              px={16}
+              bgSize={{ base: '800%', md: '210%', lg: '110%' }}
+              px={{ base: 0, md: 16 }}
               py={16}
               align="center"
               color="white"
             >
               <Grid templateColumns={{ base: '1fr', lg: '1fr 1fr' }} gap={10}>
                 <GridItem colSpan={{ base: 0, lg: 2 }}>
-                  <Heading as="h2" variant="h1Highlighted">
+                  <Heading
+                    as="h2"
+                    variant={{
+                      base: 'h1HighlightedBase',
+                      lg: 'h1HighlightedMd',
+                    }}
+                  >
                     <Highlight
                       query="consultoria"
                       styles={{ fontWeight: 'bold', color: 'inherit' }}
@@ -109,17 +115,23 @@ export default function OurSolutions() {
             </Box>
 
             <Box
-              rounded="3xl"
+              rounded={{ base: 'xl', md: '3xl' }}
               bg="url(/our-solutions-bg-2.jpg) center center no-repeat"
-              bgSize="150%"
-              px={28}
+              bgSize={{ base: '500%', md: '150%' }}
+              px={{ base: 0, md: 28 }}
               py={16}
               align="center"
               color="white"
             >
               <Grid templateColumns="1fr" gap={10}>
                 <GridItem>
-                  <Heading as="h2" variant="h1Highlighted">
+                  <Heading
+                    as="h2"
+                    variant={{
+                      base: 'h1HighlightedBase',
+                      lg: 'h1HighlightedMd',
+                    }}
+                  >
                     <Highlight
                       query="currículo"
                       styles={{ fontWeight: 'bold', color: 'inherit' }}
@@ -199,7 +211,11 @@ export default function OurSolutions() {
           py={{ base: 10, md: 20, lg: 40 }}
           align="center"
         >
-          <Heading as="h2" variant="h1Highlighted" mb="32">
+          <Heading
+            as="h2"
+            variant={{ base: 'h1HighlightedBase', lg: 'h1HighlightedMd' }}
+            mb="32"
+          >
             <Highlight
               query="nossas soluções"
               styles={{ fontWeight: 'bold', color: 'inherit' }}
