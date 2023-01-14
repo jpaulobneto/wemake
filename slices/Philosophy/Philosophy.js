@@ -17,12 +17,13 @@ export default function Philosophy() {
         bgGradient={'linear(to-r, gradient.darkBlue, gradient.lightBlue)'}
         align={'center'}
         justify={'center'}
-        py={160 / 4}
+        py={{ base: 80 / 4, md: 160 / 4 }}
         color={'white'}
+        textAlign="center"
       >
         <Heading
-          as="h1"
-          fontSize={'6xl'}
+          as="h1Base"
+          fontSize={{ base: '3xl', md: '6xl' }}
           letterSpacing={'0.15em'}
           lineHeight={'tall'}
         >
@@ -30,14 +31,14 @@ export default function Philosophy() {
         </Heading>
       </Flex>
 
-      <Container maxW={'container.xl'} py={40}>
+      <Container maxW={'container.xl'} py={{ base: 10, md: 20, lg: 40 }}>
         <Grid
           columnGap={10}
           rowGap={10}
-          templateColumns={'repeat(2, 1fr)'}
-          templateRows={'repeat(9, auto-fit)'}
+          templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}
+          /* templateRows={'repeat(9, auto-fit)'} */
         >
-          <GridItem rowSpan={3}>
+          <GridItem rowSpan={{ base: 0, md: 2, lg: 3 }}>
             <Image
               src={'/quem-queremos-educar.png'}
               width={539}
@@ -46,7 +47,10 @@ export default function Philosophy() {
             />
           </GridItem>
           <GridItem>
-            <Heading as={'h2'} variant={'h1Highlighted'}>
+            <Heading
+              as={'h2'}
+              variant={{ base: 'h1HighlightedBase', md: 'h1HighlightedMd' }}
+            >
               Quem queremos{' '}
               <Highlight
                 query="educar"
@@ -66,7 +70,7 @@ export default function Philosophy() {
               filosófica&quot; (James K. Smith).
             </Text>
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{ base: 0, md: 2, lg: 1 }}>
             <Text>
               Os alunos não são um acidente cósmico ou evolução do macaco, mas
               foram intencionalmente criados à{' '}
@@ -78,7 +82,7 @@ export default function Philosophy() {
               faber), como é sugerido pela educação maker moderna.
             </Text>
           </GridItem>
-          <GridItem colSpan={2}>
+          <GridItem colSpan={{ base: 0, md: 2 }}>
             <Text>
               Por outro lado, a Bíblia aponta para o{' '}
               <Text as="strong" color="brand.500">
@@ -89,7 +93,7 @@ export default function Philosophy() {
               nossos corações - somos aquilo que nós amamos.
             </Text>
           </GridItem>
-          <GridItem colSpan={2}>
+          <GridItem colSpan={{ base: 0, md: 2 }}>
             <Text>
               Desta forma, a <Text as="strong">We make</Text> é comprometida com
               o{' '}
@@ -102,8 +106,11 @@ export default function Philosophy() {
             </Text>
           </GridItem>
 
-          <GridItem mt={16}>
-            <Heading as={'h2'} variant={'h1Highlighted'}>
+          <GridItem mt={{ base: 0, md: 16 }}>
+            <Heading
+              as={'h2'}
+              variant={{ base: 'h1HighlightedBase', md: 'h1HighlightedMd' }}
+            >
               Para qual{' '}
               <Highlight
                 query="realidade"
@@ -118,7 +125,10 @@ export default function Philosophy() {
               educar?
             </Heading>
           </GridItem>
-          <GridItem rowSpan={3} mt={16}>
+          <GridItem
+            rowSpan={{ base: 0, md: 2, lg: 3 }}
+            mt={{ base: 0, md: 16 }}
+          >
             <Image
               src={'/pra-qual-realidade.png'}
               width={539}
@@ -135,7 +145,7 @@ export default function Philosophy() {
               (João Calvino).
             </Text>
           </GridItem>
-          <GridItem>
+          <GridItem colSpan={{ base: 0, md: 2, lg: 1 }}>
             <Text>
               Nós entendemos o mundo como inteligível e relacional, e devemos
               conhecê-lo pelo conhecimento de Deus, com sabedoria e
@@ -150,7 +160,7 @@ export default function Philosophy() {
               (educando para a eternidade).
             </Text>
           </GridItem>
-          <GridItem colSpan={2}>
+          <GridItem colSpan={{ base: 0, md: 2 }}>
             <Text>
               Assim, a <Text as="strong">We make</Text> tem o compromisso de
               pensar, estudar, produzir e ensinar tecnologia com{' '}

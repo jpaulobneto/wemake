@@ -15,19 +15,31 @@ import { Link } from '/components'
 export default function AboutMe() {
   return (
     <Box as="section">
-      <Container maxW="container.xl" py={40}>
-        <Grid templateColumns="repeat(2, 1fr)" alignItems="center" gap={10}>
+      <Container maxW="container.xl" py={{ base: 10, md: 20, lg: 40 }}>
+        <Grid
+          templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}
+          alignItems="center"
+          gap={10}
+        >
           <GridItem>
-            <Heading as="h1" variant="h1" mb="5">
+            <Heading
+              as="h1"
+              variant={{ base: 'h1Base', md: 'h1Md' }}
+              mb={{ base: 1, md: 5 }}
+            >
               Quem sou
             </Heading>
-            <Heading as="h2" variant="h2" mb={100}>
+            <Heading
+              as="h2"
+              variant={{ base: 'h2Base', md: 'h2Md' }}
+              mb={{ base: 10, md: 20, lg: 100 }}
+            >
               Enquanto vocação
             </Heading>
 
             <UnorderedList>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Bacharel em Teologia"
                     styles={{
@@ -41,7 +53,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Educação Clássica Cristã"
                     styles={{
@@ -56,7 +68,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Engenharia Mecânica"
                     styles={{
@@ -70,7 +82,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Laboratório de Fabricação Digital"
                     styles={{
@@ -84,7 +96,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Robótica e Educação Tecnológica"
                     styles={{
@@ -99,7 +111,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Cosmovisão Cristã"
                     styles={{
@@ -115,7 +127,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Coordenador de ensino bíblico"
                     styles={{
@@ -129,7 +141,7 @@ export default function AboutMe() {
                 </Text>
               </ListItem>
               <ListItem>
-                <Text lineHeight={9}>
+                <Text lineHeight={9} fontSize={{ base: 'lg', lg: 'xl' }}>
                   <Highlight
                     query="Editor de material"
                     styles={{
@@ -151,7 +163,7 @@ export default function AboutMe() {
                 src={'/denis.jpg'}
                 width={510}
                 height={569}
-                alt="Dênis Júlio"
+                alt="Dênis Júlio - CEO e fundador da We Make"
               />
             </Box>
 

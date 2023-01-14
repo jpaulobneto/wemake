@@ -4,7 +4,6 @@ import {
   Grid,
   GridItem,
   Heading,
-  HStack,
   Text,
   VStack,
 } from '@chakra-ui/react'
@@ -38,85 +37,109 @@ export default function Home() {
           src={'/hero-logo.svg'}
           width={896}
           height={231}
-          alt="We make - nós criamos"
+          alt="We Make - nós criamos"
         />
       </Hero>
 
       <main>
         <Box as="section" bg="brand.500" color="white">
-          <Container maxW="container.xl" py={40}>
-            <HStack mb={100} justify="space-between" align="stretch">
-              <VStack w="full" align="flex-start">
-                <Heading as="h1" variant="h1Light" mb="5">
-                  Quem Somos
-                </Heading>
-                <Heading as="h2" variant="h2Light">
-                  Enquanto Empresa
-                </Heading>
-              </VStack>
+          <Container maxW="container.xl" py={{ base: 10, md: 20, lg: 40 }}>
+            <Grid
+              templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}
+              justify="space-between"
+              align="stretch"
+              gap={8}
+              mb={{ base: 8, md: 16 }}
+            >
+              <GridItem>
+                <VStack w="full" align="flex-start">
+                  <Heading
+                    as="h1"
+                    variant={{ base: 'h1LightBase', md: 'h1LightMd' }}
+                    mb={{ base: 1, md: 5 }}
+                  >
+                    Quem Somos
+                  </Heading>
+                  <Heading
+                    as="h2"
+                    variant={{ base: 'h2LightBase', md: 'h2LightMd' }}
+                  >
+                    Enquanto Empresa
+                  </Heading>
+                </VStack>
+              </GridItem>
 
-              <VStack w="full" align="flex-start">
-                <Text mb={10}>
-                  <Text as="strong" color="brand.100">
-                    We Make
-                  </Text>{' '}
-                  - nós fazemos - é uma empresa criada com o objetivo de{' '}
-                  <Text as="strong">
-                    pensar, estudar, produzir e ensinar tecnologia
-                  </Text>{' '}
-                  a partir da{' '}
-                  <Text as="strong" color="brand.100">
-                    Cosmovisão Cristã
+              <GridItem>
+                <VStack w="full" align="flex-start" spacing={8}>
+                  <Text>
+                    <Text as="strong" color="brand.100">
+                      We Make
+                    </Text>{' '}
+                    - nós fazemos - é uma empresa criada com o objetivo de{' '}
+                    <Text as="strong">
+                      pensar, estudar, produzir e ensinar tecnologia
+                    </Text>{' '}
+                    a partir da{' '}
+                    <Text as="strong" color="brand.100">
+                      Cosmovisão Cristã
+                    </Text>
+                    .
                   </Text>
-                  .
-                </Text>
 
-                <Text>
-                  Nos diferenciamos pelo compromisso com uma{' '}
-                  <Text as="strong" color="brand.100">
-                    educação escolar distintamente cristã
+                  <Text>
+                    Nos diferenciamos pelo compromisso com uma{' '}
+                    <Text as="strong" color="brand.100">
+                      educação escolar distintamente cristã
+                    </Text>
+                    , que prima pela Verdade, Beleza e Bondade reveladas através
+                    da Bíblia e da criação.
                   </Text>
-                  , que prima pela Verdade, Beleza e Bondade reveladas através
-                  da Bíblia e da criação.
+                </VStack>
+              </GridItem>
+            </Grid>
+
+            <VStack w="full" align="flex-start" spacing={8}>
+              <Text>
+                Assim, nós entendemos a{' '}
+                <Text as="strong" color="brand.100">
+                  tecnologia
+                </Text>{' '}
+                não como um fim em si mesma, mas como parte do Mandato Cultural,
+                cujo objetivo é{' '}
+                <Text as="strong">
+                  desenvolver os potenciais da criação e aliviar os efeitos da
+                  Queda
                 </Text>
-              </VStack>
-            </HStack>
-
-            <Text mb={10}>
-              Assim, nós entendemos a{' '}
-              <Text as="strong" color="brand.100">
-                tecnologia
-              </Text>{' '}
-              não como um fim em si mesma, mas como parte do Mandato Cultural,
-              cujo objetivo é{' '}
-              <Text as="strong">
-                desenvolver os potenciais da criação e aliviar os efeitos da
-                Queda
+                .
               </Text>
-              .
-            </Text>
 
-            <Text mb={10}>
-              E visualizamos a <Text as="strong">natureza do aluno</Text> e o
-              seu <Text as="strong">potencial</Text>, a{' '}
-              <Text as="strong">função do professor</Text>, a{' '}
-              <Text as="strong">metodologia empregada</Text> e a{' '}
-              <Text as="strong">construção do currículo</Text> à luz da{' '}
-              <Text as="strong" color="brand.100">
-                metanarrativa Bíblica
+              <Text>
+                E visualizamos a <Text as="strong">natureza do aluno</Text> e o
+                seu <Text as="strong">potencial</Text>, a{' '}
+                <Text as="strong">função do professor</Text>, a{' '}
+                <Text as="strong">metodologia empregada</Text> e a{' '}
+                <Text as="strong">construção do currículo</Text> à luz da{' '}
+                <Text as="strong" color="brand.100">
+                  metanarrativa Bíblica
+                </Text>
+                :
               </Text>
-              :
-            </Text>
 
-            <Text mb={20}>
-              <Text as="strong">(1)</Text> Deus (em Cristo e pelo Espírito) cria
-              o mundo; <Text as="strong">(2)</Text> o pecado debilita, deturpa e
-              arruína a criação; <Text as="strong">(3)</Text> Deus age para
-              curar, endireitar e restaurar; <Text as="strong">(4)</Text> Deus
-              finalmente reconcilia todo o cosmo consigo mesmo.
-            </Text>
+              <Text>
+                <Text as="strong">(1)</Text> Deus (em Cristo e pelo Espírito)
+                cria o mundo; <Text as="strong">(2)</Text> o pecado debilita,
+                deturpa e arruína a criação; <Text as="strong">(3)</Text> Deus
+                age para curar, endireitar e restaurar;{' '}
+                <Text as="strong">(4)</Text> Deus finalmente reconcilia todo o
+                cosmo consigo mesmo.
+              </Text>
+            </VStack>
 
-            <Grid templateColumns="repeat(3, 1fr)" gap={10}>
+            <Grid
+              templateColumns={{ base: '1fr', lg: 'repeat(3, 1fr)' }}
+              gap={8}
+              mt={16}
+            >
               <GridItem bg="white" rounded="xl" color="black" py={10} px={7}>
                 <Text
                   as="h3"

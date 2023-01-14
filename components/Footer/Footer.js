@@ -11,10 +11,15 @@ export default function Footer() {
     <Flex as="footer" bg="black" color="white" justify="center">
       <Flex w="80%" py="14" borderTop="2px solid white" justify="center">
         <VStack spacing="12" width="fit-content">
-          <Image src="/wemake-logo-white.png" width="220" height="57" />
+          <Image
+            src="/wemake-logo-white.png"
+            width="220"
+            height="57"
+            alt="We Make - nós criamos"
+          />
 
           <VStack spacing="5">
-            <Text>We Make - Educação Tecnológica</Text>
+            <Text textAlign="center">We Make - Educação Tecnológica</Text>
 
             <List spacing="1">
               <ListItem>

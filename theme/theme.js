@@ -24,34 +24,69 @@ export default extendTheme({
         textTransform: 'uppercase',
       },
       variants: {
-        h1: {
+        h1Base: {
+          fontSize: '4xl',
+          letterSpacing: '0.225em',
+        },
+        h1Md: {
           fontSize: '7xl',
           letterSpacing: '0.225em',
         },
-        h2: {
+        h2Base: {
+          fontWeight: 'light',
+          fontSize: 'xl',
+          letterSpacing: '0.1em',
+        },
+        h2Md: {
           fontWeight: 'light',
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
-        h1Light: {
+        h1LightBase: {
+          color: 'white',
+          fontSize: '4xl',
+          letterSpacing: '0.225em',
+        },
+        h1LightMd: {
           color: 'white',
           fontSize: '7xl',
           letterSpacing: '0.225em',
         },
-        h2Light: {
+        h2LightBase: {
+          color: 'white',
+          fontWeight: 'light',
+          fontSize: 'xl',
+          letterSpacing: '0.1em',
+        },
+        h2LightMd: {
           color: 'white',
           fontWeight: 'light',
           fontSize: '4xl',
           letterSpacing: '0.1em',
         },
-        h1Highlighted: {
+        h1HighlightedBase: {
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '3xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
+        h1HighlightedMd: {
           fontFamily: `Sora, ${theme.fonts.heading}`,
           fontSize: '7xl',
           fontWeight: 'normal',
           lineHeight: 'short',
           textTransform: 'unset',
         },
-        h1HighlightedLight: {
+        h1HighlightedLightBase: {
+          color: 'white',
+          fontFamily: `Sora, ${theme.fonts.heading}`,
+          fontSize: '4xl',
+          fontWeight: 'normal',
+          lineHeight: 'short',
+          textTransform: 'unset',
+        },
+        h1HighlightedLightMd: {
           color: 'white',
           fontFamily: `Sora, ${theme.fonts.heading}`,
           fontSize: '7xl',
@@ -70,7 +105,7 @@ export default extendTheme({
     Text: {
       baseStyle: {
         lineHeight: '34px',
-        fontSize: 'xl',
+        fontSize: 'lg',
       },
     },
   },
