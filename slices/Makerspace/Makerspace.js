@@ -13,14 +13,15 @@ import {
 } from '@chakra-ui/react'
 import Image from 'next/image'
 
-const MAKERSPACE_BG_HEIGHT = 870
+const MAKERSPACE_BG_HEIGHT = 873
 
 export default function Makerspace() {
   return (
     <Box as="section">
       <Flex
         bg={'url(/makerspace-bg.jpg) center center no-repeat'}
-        bgSize={{ base: 'cover', md: '110%' }}
+        bgSize="cover"
+        mb="-1%"
         height={{
           base: `${MAKERSPACE_BG_HEIGHT * 0.45}px`,
           lg: `${MAKERSPACE_BG_HEIGHT * 0.6}px`,
