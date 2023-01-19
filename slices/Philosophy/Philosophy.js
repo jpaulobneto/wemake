@@ -95,7 +95,7 @@ export default function Philosophy() {
           </GridItem>
           <GridItem colSpan={{ base: 0, md: 2 }}>
             <Text>
-              Desta forma, a <Text as="strong">We make</Text> é comprometida com
+              Desta forma, a <Text as="strong">We Make</Text> é comprometida com
               o{' '}
               <Text as="strong" color="brand.500">
                 desenvolvimento integral
@@ -162,7 +162,7 @@ export default function Philosophy() {
           </GridItem>
           <GridItem colSpan={{ base: 0, md: 2 }}>
             <Text>
-              Assim, a <Text as="strong">We make</Text> tem o compromisso de
+              Assim, a <Text as="strong">We Make</Text> tem o compromisso de
               pensar, estudar, produzir e ensinar tecnologia com{' '}
               <Text as="strong" color="brand.500">
                 liberdade e responsabilidade em resposta a Deus
