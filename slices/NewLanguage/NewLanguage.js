@@ -57,7 +57,7 @@ export default function NewLanguage() {
             modernidade.
           </Text>
           <Text>
-            Dominar uma nova língua, ainda que digital, abrirá caminhos para o
+            Dominar uma nova língua, ainda que digital, abrirá caminhos para o{' '}
             <Text as="strong">exercício da vocação com excelência</Text>,
             independentemente da área de atuação que os nossos alunos sigam.
             Para mais, <Text as="strong">outras habilidades importantes</Text>{' '}

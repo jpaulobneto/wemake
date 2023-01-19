@@ -159,8 +159,8 @@ export default function Makerspace() {
                   O makerspace se apresenta como um verdadeiro microcosmo da
                   criação e para a criatividade, atendendo, inicialmente, ao
                   currículo e as aulas programadas pela{' '}
-                  <Text as="strong">WeMake</Text>, mas, posteriormente, rompe-se
-                  os limites escolares, alcançando a comunidade.
+                  <Text as="strong">We Make</Text>, mas, posteriormente,
+                  rompe-se os limites escolares, alcançando a comunidade.
                 </Text>
               </VStack>
             </GridItem>
