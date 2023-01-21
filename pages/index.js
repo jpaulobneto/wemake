@@ -42,7 +42,7 @@ export default function Home() {
       </Hero>
 
       <main>
-        <Box as="section" bg="brand.500" color="white">
+        <Box id="quem-somos" as="section" bg="brand.500" color="white">
           <Container maxW="container.xl" py={{ base: 10, md: 20, lg: 40 }}>
             <Grid
               templateColumns={{ base: '1fr', md: 'repeat(2, 1fr)' }}

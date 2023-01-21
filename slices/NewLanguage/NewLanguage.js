@@ -20,6 +20,7 @@ export default function NewLanguage() {
       />
 
       <Container
+        id="nova-lingua"
         maxW={'container.xl'}
         py={{ base: 10, md: 20, lg: 40 }}
         align="center"

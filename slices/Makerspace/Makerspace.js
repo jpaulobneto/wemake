@@ -17,7 +17,7 @@ const MAKERSPACE_BG_HEIGHT = 873
 
 export default function Makerspace() {
   return (
-    <Box as="section">
+    <Box id="makerspace" as="section">
       <Flex
         bg={'url(/makerspace-bg.jpg) center center no-repeat'}
         bgSize="cover"
