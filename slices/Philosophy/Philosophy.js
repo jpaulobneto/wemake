@@ -12,7 +12,7 @@ import Image from 'next/image'
 
 export default function Philosophy() {
   return (
-    <Box as="section">
+    <Box id="filosofia-educacional" as="section">
       <Flex
         bgGradient={'linear(to-r, gradient.darkBlue, gradient.lightBlue)'}
         align={'center'}
