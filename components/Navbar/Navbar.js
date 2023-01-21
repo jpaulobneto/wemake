@@ -3,7 +3,12 @@ import { Link } from '../Link'
 
 export default function Navbar() {
   return (
-    <Container maxWidth="container.xl">
+    <Container
+      maxWidth="container.xl"
+      bg="white"
+      position={{ base: 'inherit', md: 'fixed' }}
+      zIndex="sticky"
+    >
       <Grid
         templateColumns={[
           'auto auto',
