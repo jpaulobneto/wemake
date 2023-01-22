@@ -66,7 +66,7 @@ export default function Philosophy() {
           </GridItem>
           <GridItem>
             <Text>
-              &quot;Por trás de roda pedagogia, há uma antropologia
+              &quot;Por trás de toda pedagogia, há uma antropologia
               filosófica&quot; (James K. Smith).
             </Text>
           </GridItem>
@@ -89,7 +89,7 @@ export default function Philosophy() {
                 coração
               </Text>{' '}
               como o centro da existência humana (homo liturgicus). Isto é,
-              antes do aspecto racional e prático, as a nossa cosmovisão atua em
+              antes do aspecto racional e prático, a nossa cosmovisão atua em
               nossos corações - somos aquilo que nós amamos.
             </Text>
           </GridItem>

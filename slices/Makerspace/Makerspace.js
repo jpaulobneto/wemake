@@ -70,7 +70,7 @@ export default function Makerspace() {
             </Highlight>
           </Heading>
           <Text color={'white'} mb={{ base: 16, lg: 24 }}>
-            O <Text as="strong">makerspace</Text> um espaço de criatividade,
+            O <Text as="strong">makerspace</Text> é um espaço de criatividade,
             aprendizado e inovação, criado com o objetivo de inspirar e
             viabilizar ideias para serem transformadas em objetos reais, por
             meio de processos colaborativos de criação e compartilhamento de
