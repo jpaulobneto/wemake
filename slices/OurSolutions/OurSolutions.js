@@ -178,7 +178,7 @@ export default function OurSolutions() {
                   <Link
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+                    href="https://materiais.wemake.tec.br/cnec2023-dados"
                   >
                     <Button
                       color="white"
@@ -228,7 +228,7 @@ export default function OurSolutions() {
             display="block"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://api.whatsapp.com/send?phone=5583982301530&text=Ol%C3%A1%21+Gostaria+de+saber+mais+sobre+a+We+Make+-+N%C3%B3s+criamos%21"
+            href="https://materiais.wemake.tec.br/cnec2023-dados"
             mb={{ base: 12, md: 24, lg: 36 }}
           >
             <Button
