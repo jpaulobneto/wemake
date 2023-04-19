@@ -137,13 +137,6 @@ export default function Makerspace() {
             </GridItem>
             <GridItem>
               <VStack spacing={6}>
-                <Text>
-                  O sucesso da experiência de aprendizagem em um{' '}
-                  <Text as="strong">makerspace</Text> inicia-se ao entender o
-                  seu propósito, no que diz respeito aos seus objetivos, missão
-                  e valores.
-                </Text>
-
                 <Text as="strong" color="brand.100">
                   Qual é o propósito de um espaço como este em um ambiente
                   escolar?
@@ -154,14 +147,6 @@ export default function Makerspace() {
                   potenciais da criação, cumpram o mandato cultural através do
                   estudo e desenvolvimento da tecnologia de forma doxológica; e
                   ampliar os horizontes quanto à descoberta de suas vocações.
-                </Text>
-
-                <Text>
-                  O makerspace se apresenta como um verdadeiro microcosmo da
-                  criação e para a criatividade, atendendo, inicialmente, ao
-                  currículo e as aulas programadas pela{' '}
-                  <Text as="strong">We Make</Text>, mas, posteriormente,
-                  rompe-se os limites escolares, alcançando a comunidade.
                 </Text>
               </VStack>
             </GridItem>
@@ -191,21 +176,6 @@ export default function Makerspace() {
                     serviço ao próximo.
                   </Text>
                 </Text>
-
-                <Text>
-                  O ensino não é centrado no aluno. Todo o corpo envolvido será
-                  impactado pelo ambiente criativo: Escola, professores,
-                  colaboradores, alunos, famílias, comunidade. A figura do{' '}
-                  <Text as="strong">professor</Text>, como transmissor do
-                  conhecimento e referencial axiológico, se faz necessária e
-                  importante. A{' '}
-                  <Text as="strong">Escola e os colaboradores</Text> como
-                  aqueles que hospedam e fornecem os meios para o cumprimento do
-                  propósito. O <Text as="strong">aluno</Text> é maravilhado,
-                  recebe, desenvolve e compartilha o conhecimento. A{' '}
-                  <Text as="strong">família e a comunidade</Text> - conjunto de
-                  famílias - sendo impactadas.
-                </Text>
               </VStack>
             </GridItem>
 
@@ -223,35 +193,17 @@ export default function Makerspace() {
                   Quando alinhadas claramente ao propósito e às pessoas
                   envolvidas no <Text as="strong">makerspace</Text>, as
                   ferramentas, máquinas e insumos cumprem o seu papel
-                  importante, porém servil. Toda tecnologia usada, estudada ou
-                  produzida não é o fim em si mesma, porém, o meio pelo qual
-                  cumpre-se o propósito e serve as pessoas.
-                </Text>
-
-                <Text>
-                  Toda ferramenta usada faz parte do{' '}
-                  <Text as="strong" color="brand.100">
-                    Mandato Cultural
-                  </Text>{' '}
-                  - eco da ordenança de cultivar e guardar o jardim - promovendo
-                  alívio aos efeitos da Queda na criação; facilidade no
-                  desenvolvimento de tarefas; potencializando boas feituras -
-                  redenção limitada.
+                  importante, porém servil.
                 </Text>
 
                 <Text>
                   Um makerspace pode ter uma variedade de ferramentas e
-                  equipamentos, como computadores com software de desenho
-                  digital CAD e plataforma de programação e codificação,
-                  equipamentos de eletrônica e robótica, ferramentas de
-                  marcenaria, mecânica, e materiais de papelaria. Todavia, o seu
-                  diferencial está nas máquinas e equipamentos que são capazes
-                  de{' '}
+                  equipamentos, mas o seu diferencial está nas máquinas e
+                  equipamentos que são capazes de{' '}
                   <Text as="strong" color="brand.100">
                     transformar bits e bytes e átomos
                   </Text>{' '}
-                  - isto é, trazer para a realidade aquilo que é pensado e
-                  projetado no ambiente digital:{' '}
+                  - isto é, trazer para a realidade aquilo que é pensado:{' '}
                   <Text as="strong">
                     Impressora 3D, Máquina de corte a laser, Robótica e
                     Eletrônica Arduino.
