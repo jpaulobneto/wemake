@@ -22,12 +22,31 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>We Make - Educação Tecnológica</title>
+        <title>
+          We Make - Educação Tecnológica e Maker com Cosmovisão Cristã
+        </title>
         <meta
           name="description"
-          content="We Make - nós fazemos - é uma empresa criada com o objetivo de pensar, estudar, produzir e ensinar tecnologia a partir da Cosmovisão Cristã. Nos diferenciamos pelo compromisso com uma educação escolar distintamente cristã, que prima pela Verdade, Beleza e Bondade reveladas através da Bíblia e da criação."
+          content="Editora criada com o objetivo de pensar, estudar, produzir e ensinar tecnologia a partir da Cosmovisão Cristã."
         />
-        <link rel="icon" href="/favicon.svg" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
       </Head>
 
       <Navbar />
