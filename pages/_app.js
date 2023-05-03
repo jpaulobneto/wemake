@@ -51,12 +51,6 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-
-      {/* RDStation */}
-      <Script
-        strategy="afterInteractive"
-        src="https://d335luupugsy2.cloudfront.net/js/loader-scripts/1b744bf1-f5b9-4eaa-98c7-f4a60224dd5e-loader.js"
-      />
     </ChakraProvider>
   )
 }
