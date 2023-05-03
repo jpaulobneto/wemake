@@ -22,9 +22,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>
-          We Make - Educação Tecnológica e Maker com Cosmovisão Cristã
-        </title>
+        <title>We Make - Editora Cristã de Educação Tecnológica</title>
         <meta
           name="description"
           content="Editora criada com o objetivo de pensar, estudar, produzir e ensinar tecnologia a partir da Cosmovisão Cristã."
