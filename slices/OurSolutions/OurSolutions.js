@@ -178,7 +178,7 @@ export default function OurSolutions() {
                   <Link
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://materiais.wemake.tec.br/cnec2023-dados"
+                    href="https://wa.me/5583982301530?text=Ol%C3%A1!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20a%20editora%20crist%C3%A3%20de%20educa%C3%A7%C3%A3o%20tecnol%C3%B3gica."
                   >
                     <Button
                       color="white"
@@ -228,7 +228,7 @@ export default function OurSolutions() {
             display="block"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://materiais.wemake.tec.br/cnec2023-dados"
+            href="https://wa.me/5583982301530?text=Ol%C3%A1!%20Eu%20gostaria%20de%20saber%20mais%20sobre%20a%20editora%20crist%C3%A3%20de%20educa%C3%A7%C3%A3o%20tecnol%C3%B3gica."
             mb={{ base: 12, md: 24, lg: 36 }}
           >
             <Button
